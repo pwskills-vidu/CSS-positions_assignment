@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question9</title>
+    <style>
+        .menu{
+            position: fixed;
+            top: 10px;
+            display: inline-block;
+        }
+        button{
+            background-color: #f57171;
+            padding: 10px 25px;
+            border: 0;
+            
+        }
+        .list{
+            display: none;
+            position: absolute;
+            overflow-y: scroll;
+            width: 200px;
+           height: 150px;
+
+        }
+        .menu:hover .list{
+            display: block;
+        }
+        .item{
+            padding: 10px;
+        }
+        .item:hover{
+            background-color: #ddd2d2;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <button>Hover To View Options </button>
+        <div class="list">
+          <div class="item">Option 1</div>
+          <div class="item">Option 2</div>
+          <div class="item">Option 3</div>
+          <div class="item">Option 4</div>
+          <div class="item">Option 5</div>
+          <div class="item">Option 6</div>
+          <div class="item">Option 7</div>
+          <div class="item">Option 8</div>
+          <div class="item">Option 9</div>
+          <div class="item">Option 10</div>
+        </div>
+      </div>
+</body>
+</html>
